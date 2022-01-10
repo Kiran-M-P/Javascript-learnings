@@ -39,3 +39,9 @@ const myOwnObject = {
 console.log(myOwnObject.myName);
 console.log(myOwnObject.myAge);
 console.log(myOwnObject.myFriend.myFriendAge);
+
+// VS code short cuts
+// ctrl+o----open files from explorer
+// shift+crt+s----save as
+
+// Played with settings.json
