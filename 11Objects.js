@@ -1,44 +1,45 @@
-// A cup is an object, with properties.
-// A cup has a color, a design, weight,
-// a material it is made of, etc.
-// The same way, JavaScript objects can have
-// properties, which define their characteristics.
+// 01 for loop
 
-array = [];
-console.log(typeof array);
+let num = [];
+for (let i = 0; i < 10; i = i + 2) {
+  num.push(i);
+}
+console.log("for loop", num);
 
-// object initializer
+// 02 for in loop /loops over index of elements in array
 
-const myCar = {
-  // key : value
-  model: "roadster",
-  brand: "tesla",
-  year: 2023,
-};
+for (let index in num) {
+  console.log("For in loop", num[index]);
+}
 
-console.log(myCar.brand);
-// associative arrays
-console.log(myCar["model"]);
+// 03 for of loop / loops over elements in array
 
-// not vaild names === that has a space or a hyphen, or that starts with a number.
-// can only be accessed using the square bracket notation.
+let myFriends = ["kiran", "kutty", "kumar"];
 
-// practice problem
+for (let friend of myFriends) {
+  console.log("for of loop", friend, "is my friend");
+}
 
-// write your code below
-const myFriend = {
-  myFriendAge: 21,
-};
+// 04 while loop
 
-const myOwnObject = {
-  myAge: 20,
-  myName: "kiran",
-  myFriend,
-};
+let num2 = [];
+let i = 0;
+while (i < 20) {
+  num2.push(i * 2);
+  i++;
+}
 
-console.log(myOwnObject.myName);
-console.log(myOwnObject.myAge);
-console.log(myOwnObject.myFriend.myFriendAge);
+console.log("while loop", num2);
+
+// 05 do loop
+// Ref 11Objects.js
+
+let j = 0;
+
+do {
+  console.log("just do it");
+  j++;
+} while (j < 5);
 
 // VS code short cuts
 // ctrl+o----open files from explorer
