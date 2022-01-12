@@ -15,3 +15,8 @@
 // Alt + Up;       ===     Move Line Up
 // Alt + Down;     ===     Move Line Down
 // ctrl+k z        ===     zen mode
+
+// 12/01/22
+// crt + enter     ===     Insert Line below
+// crt+shift+enter ===     Insert Line above
+
