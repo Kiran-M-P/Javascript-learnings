@@ -18,3 +18,11 @@ button {
   font-weight: bold;
   color: steelblue;
 }
+
+.even {
+  background-color: coral;
+}
+
+.odd {
+  background-color: darkslategrey;
+}
