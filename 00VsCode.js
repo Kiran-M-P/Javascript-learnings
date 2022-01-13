@@ -20,3 +20,6 @@
 // crt + enter     ===     Insert Line below
 // crt+shift+enter ===     Insert Line above
 
+// 13/01/22
+// ctrl+alt+up or ctrl+alt+down === Multi cursor selection
+// ctrl+shift+o === Go to Symbol in File
