@@ -9,3 +9,7 @@ myname2 = "kutty";
 var myname3 = "eshwar";
 
 console.log(myname1, myname2, myname3);
+
+// update
+// use const most as possible unless the varible will reasigned
+// You don't need to capitalize const varible names
